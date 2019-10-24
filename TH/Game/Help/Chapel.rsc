@@ -12,21 +12,20 @@ StringTable resource
 		^i0Log x50 ^i0Stone x130 ^i0Iron x30 ^me
 
 		^f1 ^c0 ^jl ^vb
-		A chapel can be built to increase the happiness of the citizens that live around it, as well as happiness
-		to the citizens that are members of the chapel. Only 200 citizens may be a member of a chapel, so as a town
-		grows, more chapels may be needed.
+		โบสถ์สามารถสร้างขึ้นเพื่อเพิ่มความสุขของประชาชนที่อาศัยอยู่รอบ ๆ มัน ประชาชนเพียง 200 คนเท่านั้นที่สามารถเป็นสมาชิกของโบสถ์ได้ดังนั้นโบสถ์อาจมีความจำเป็นถ้าอยากจะให้เมือง
+		เติบโตขึ้นมากขึ้น
 		^p
-		Chapels must be staffed by a ^i0ProfessionPriest ^s ^abProfession cleric ^ae for it to be effective.
+		โบสถ์ต้องมีพนักงาน ^ i0ProfessionPriest ^ s ^ abProfession cleric ^ ae เพื่อให้โบสถ์สามารถทำงานได้
 		^p
 		^mb ^mc ^dDialogChapel
 		^ml308 ^mc
-		Clicking on the chapel will show how many citizens are members of the chapel.
+		คลิกที่โบสถ์จะแสดงจำนวนพลเมืองที่เป็นสมาชิกของโบสถ์
 		^ml0 ^me
 		^n
 		^mb ^mc ^dDialogChapelWork ^n
 		^ml60 ^mc	
-		Clicking on the work button will toggle enabling or disabling use of the chapel. If work is not occurring,
-		no citizens will be allowed to be members of the chapel, and people living nearby won't get a happiness bonus.
+		การคลิกที่ปุ่มทำงานจะเป็นการสลับการเปิดใช้งานหรือปิดการใช้งานโบสถ์ หากงานไม่ได้เกิดขึ้น
+		ประชาชนจะไม่ได้รับอนุญาตให้เป็นสมาชิกของโบสถ์และผู้คนที่อาศัยอยู่บริเวณใกล้เคียงจะไม่ได้รับโบนัสความสุข
 		^ml0 ^me
 	  "; }
 	]
